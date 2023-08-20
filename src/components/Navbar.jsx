@@ -1,12 +1,13 @@
+import Logo from "../favicon.svg"
 
 function Navbar(){
     return(
         <>
-        <ul className="flex flex-row justify-evenly	items-center mt-4 bg-test">
-            <li><a href="#"><img src="../favicon.svg" alt="Logo"/></a></li>
-            <li><a href="#">Quem somos</a></li>
-            <li><a href="#">O problema</a></li>
-            <li><a href="#">A solução</a></li>
+        <ul className="flex flex-row justify-evenly	items-center bg-darkblue text-white h-28">
+            <li className="hover:text-lightblue"><a href="#"><img src={Logo} alt="Logo" className="w-20"/></a></li>
+            <li className="hover:text-lightblue"><a href="#info">Quem somos</a></li>
+            <li className="hover:text-lightblue"><a href="#">O problema</a></li>
+            <li className="hover:text-lightblue"><a href="#">A solução</a></li>
             <li className="btn btn-outline btn-info"><a href="#">Nos Contate</a></li>
         </ul>
         </>
