@@ -7,7 +7,7 @@ function Banner(){
                     <h1 className="text-4xl">Em busca de um mundo mais justo</h1>
                     <p className="text-lg mb-10 w-96">Fazendo parcerias com governos e outras ongs para alcançar nossos objetivos e tornar o mundo um lugar melhor</p>
                     <div>
-                        <button className="btn mr-4 ml-2 btn-accent"><a href="#">Doações</a></button>
+                        <button className="btn mr-4 ml-2 btn-accent"><a href="#contatos">Doações</a></button>
                         <button className="btn hover:bg-white hover:text-darkblue bg-darkblue text-lightblue"><a href="#info">Saiba mais</a></button>
                     </div>
                 </div>

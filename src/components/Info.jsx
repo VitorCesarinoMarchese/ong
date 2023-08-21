@@ -1,7 +1,7 @@
 function Info() {
   return (
     <>
-      <div className="text-center  flex flex-col justify-center mb-20 mt-20 text-lightblue" id="info">
+      <div className="text-center  flex flex-col justify-center mb-20 mt-20 text-white bg-black" id="info">
         <h2 className="text-4xl font-bold">O que é a ONGDH?</h2>
         <div className="flex justify-center">
             <p className="mt-5 w-1/2">
