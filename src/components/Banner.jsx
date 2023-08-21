@@ -11,8 +11,8 @@ function Banner(){
                         <button className="btn hover:bg-white hover:text-darkblue bg-darkblue text-lightblue"><a href="#info">Saiba mais</a></button>
                     </div>
                 </div>
-                <div className="flex justify-center items-center w-1/3 bg-lightblue">
-                    <img className="h-80 rounded-3xl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/African_child.jpg/1920px-African_child.jpg" alt="" />
+                <div className="flex justify-center items-center w-1/3 bg-blue">
+                    <img className="h-64 rounded-3xl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/African_child.jpg/1920px-African_child.jpg" alt="" />
                 </div>
             </div>
         </>
